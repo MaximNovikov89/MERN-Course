@@ -35,6 +35,7 @@ const UserPlaces = (props) => {
     const loadedPlaces = DUMMY_PLACES.filter(place => place.creator === userId);
     return (
         <PlaceList items={loadedPlaces} />
+
     )
 }
 
