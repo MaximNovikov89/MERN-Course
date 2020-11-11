@@ -76,7 +76,6 @@ const UpdatePlace = props => {
     if (!identifiedPlace) {
         return (
             <div className='centered'>
-
                 <Card>Could not find place!</Card>
             </div>
         )
